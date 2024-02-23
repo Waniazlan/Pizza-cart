@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.category{
+    @apply text-gray-900 py-2 px-4 rounded-md text-xl hover:bg-yellow-400 hover:text-gray-700 focus:outline-none focus:bg-yellow-300 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer
+}
+
+
+@layer base{
+    html{
+        font-family: 'ui-monospace', 'SFMono-Regular',;
+    }
+}
