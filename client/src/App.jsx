@@ -18,7 +18,7 @@ import Cart from './Pages/Cart'
 
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:3000';
+  axios.defaults.baseURL = 'https://pizza-cart-87ob.onrender.com';
   axios.defaults.withCredentials = true;
 
   return (
